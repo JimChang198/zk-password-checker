@@ -1,0 +1,23 @@
+{
+  "name": "zk-password-checker",
+  "version": "1.0.0",
+  "description": "A zero-knowledge password verifier using Circom and snarkjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "circom circuits/password.circom --r1cs --wasm --sym -o build/ -l node_modules",
+    "generate": "./scripts/generate.sh",
+    "hash": "node utils/hash-calculator.js",
+    "verify": "node utils/verify-only.js",
+    "clean": "rm -rf build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "ffjavascript": "^0.3.1"
+  }
+}
