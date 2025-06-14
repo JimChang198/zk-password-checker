@@ -49,7 +49,7 @@ cargo install --path circom
 ### 1. 下載專案並安裝依賴
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/JimChang198/zk-password-checker.git>
 cd zk-password-checker
 npm install
 ```
