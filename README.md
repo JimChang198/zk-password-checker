@@ -98,14 +98,17 @@ npm run clean             # 清除 build 檔案
 ```bash
 npm run hash mypassword
 # → 將輸出複製到 input/input.json
+```
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/2027fc54-2bb5-462e-9588-42c9fe9482ce" />
 
+```bash
 npm run generate
 <img width="409" alt="image" src="https://github.com/user-attachments/assets/351e4825-3f72-4274-8693-dc64c2ff4a1b" />
+```
 
+```bash
 npm run verify
 <img width="257" alt="image" src="https://github.com/user-attachments/assets/eb673165-10a4-4467-96c4-e1173873f174" />
-
 ```
 
 驗證成功時，`public.json` 會顯示：
