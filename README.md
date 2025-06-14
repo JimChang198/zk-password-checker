@@ -46,7 +46,7 @@ cargo install --path circom
 
 ## 🚀 快速開始
 
-### 1. 下載專案並安裝依賴
+### 1. 下載專案並安裝npm
 
 ```bash
 git clone <https://github.com/JimChang198/zk-password-checker.git>
