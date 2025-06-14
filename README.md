@@ -103,13 +103,13 @@ npm run hash mypassword
 
 ```bash
 npm run generate
-<img width="409" alt="image" src="https://github.com/user-attachments/assets/351e4825-3f72-4274-8693-dc64c2ff4a1b" />
 ```
+<img width="409" alt="image" src="https://github.com/user-attachments/assets/351e4825-3f72-4274-8693-dc64c2ff4a1b" />
 
 ```bash
 npm run verify
-<img width="257" alt="image" src="https://github.com/user-attachments/assets/eb673165-10a4-4467-96c4-e1173873f174" />
 ```
+<img width="257" alt="image" src="https://github.com/user-attachments/assets/eb673165-10a4-4467-96c4-e1173873f174" />
 
 驗證成功時，`public.json` 會顯示：
 
