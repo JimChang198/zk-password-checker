@@ -1,4 +1,4 @@
-# 🔐 ZK Password Checker
+<img width="726" alt="image" src="https://github.com/user-attachments/assets/29fdf5ad-bff7-4467-9668-801543b02c0c" /><img width="726" alt="image" src="https://github.com/user-attachments/assets/29fdf5ad-bff7-4467-9668-801543b02c0c" /># 🔐 ZK Password Checker
 
 🚀 使用零知識證明，驗證密碼而不洩漏密碼！
 
@@ -131,16 +131,6 @@ template PasswordVerifier() {
 
 ---
 
-## 🚧 常見問題
-
-| 問題                        | 解決方式                                       |
-| ------------------------- | ------------------------------------------ |
-| 找不到 `poseidon.circom`     | 確保 `circomlib` 已安裝並使用 `-l node_modules` 編譯 |
-| 找不到 `generate_witness.js` | 電路尚未成功編譯，請先執行 `npm run build`              |
-| 非二次約束錯誤                   | 使用 `IsEqual()` 來比較，不可用 `==`                |
-
----
-
 ## 🔒 安全注意
 
 ⚠️ 本專案為學習用途，**請勿直接使用於生產環境**：
@@ -156,23 +146,4 @@ template PasswordVerifier() {
 * [snarkjs GitHub](https://github.com/iden3/snarkjs)
 * [Awesome ZK 資源清單](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 
----
 
-## 🤝 貢獻方式
-
-歡迎任何 PR、建議與討論！這是一個開放學習與實驗的空間。
-
----
-
-## 📄 License
-
-本專案採用 [MIT License](LICENSE)
-
----
-
-## 🚀 專案的下一步...
-
-* 加入更嚴格的密碼策略
-* 加入前端介面（例如 React）
-* 支援批量驗證
-* 支援密碼強度分析
